@@ -3,8 +3,10 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px 10%;
-    color: #ddd;
-    border-bottom: 2px solid #3c3c3c;
+    color: #F4F4FA;
+    border-bottom: 2px solid #4D4D8E;
+    background: rgba(35, 20, 107, 0.9);
+    backdrop-filter: blur(10px);
 }
 .navbar .logo{
     width: max(12vw,120px);
@@ -24,13 +26,14 @@
 }
 .navbar select{
     padding: 5px 8px;
-    border-radius: 6px;border: 2px solid white;
-    background: transparent;
-    color: white;
+    border-radius: 6px;
+    border: 2px solid #2FB2E6;
+    background: rgba(35, 20, 107, 0.8);
+    color: #F4F4FA;
 }
 .navbar option{
-    background-color: #09005c;
-    color: white;
+    background-color: #23146B;
+    color: #F4F4FA;
 }
 .navbar button{
     display: flex;
@@ -40,10 +43,11 @@
     border-radius: 20px;
     font-size: 15px;
     font-weight: 500;
-    color: #393939;
-    background: white;
+    color: #23146B;
+    background: #FFFFFF;
     border: none;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 .navbar button img{
     width: 13px;

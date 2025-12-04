@@ -34,11 +34,9 @@ const Navabar = () => {
       </Link>
       <ul>
       <Link to={'/'}> <li>Home</li> </Link>
-      
        <Link to={'/feature'}> <li>Feature</li></Link>
-        <li>Pricing</li>
-        <li>Blog</li>
-       
+        <Link to={'/about'}> <li>About Us</li></Link>
+        {/* <li>Blog</li> */}
       </ul>
       <div className="nav-right">
         <select onChange={currencyHandler}>
@@ -46,9 +44,9 @@ const Navabar = () => {
             <option value="eur">EUR</option>
             <option value="inr">INR</option>
         </select>
-        <Link to={'/reccomend'}>
+        {/* <Link to={'/reccomend'}>
         <button>SignUp</button>
-        </Link>
+        </Link> */}
       </div>
     </div>
   )

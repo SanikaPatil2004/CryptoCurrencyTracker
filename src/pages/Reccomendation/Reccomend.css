@@ -9,15 +9,16 @@
 .crypto-tb{
     max-width: 700px;
     margin: auto;
-    background: linear-gradient(rgba(84,3,255,0.15),rgba(105,2,153,0.15));
+    background: linear-gradient(135deg, rgba(77, 77, 142, 0.3), rgba(35, 20, 107, 0.5));
     border-radius: 15px;
+    border: 1px solid #2FB2E6;
 }
 .tb-layout{
     display: grid;
     grid-template-columns: 0.5fr 1fr 1fr 1fr;
     padding: 15px 20px;
     align-items: center;
-    border-bottom: 1px solid #3c3c3c;
+    border-bottom: 1px solid #4D4D8E;
 }
 .tb-layout :last-child{
     border: none;

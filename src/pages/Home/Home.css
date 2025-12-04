@@ -16,7 +16,7 @@
 }
 .hero p{
     width: 75%;
-    color: #e3e3e3;
+    color: #C7C4D3;
     line-height: 1.5;
 }
 .hero form{
@@ -39,25 +39,27 @@
 }
 .hero button{
     border: none;
-    background: #7927ff;
-    color: white;
+    background: #2573BD;
+    color: #FFFFFF;
     font-size: 16px;
     padding: 10px 30px;
     border-radius: 5px;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 .crypto-table{
     max-width: 800px;
     margin: auto;
-    background: linear-gradient(rgba(84,3,255,0.15),rgba(105,2,153,0.15));
+    background: linear-gradient(135deg, rgba(77, 77, 142, 0.3), rgba(35, 20, 107, 0.5));
     border-radius: 15px;
+    border: 1px solid #2FB2E6;
 }
 .table-layout{
     display: grid;
     grid-template-columns: 0.5fr 2fr 1fr 1fr 1.5fr;
     padding: 15px 20px;
     align-items: center;
-    border-bottom: 1px solid #3c3c3c;
+    border-bottom: 1px solid #4D4D8E;
 }
 .market-cap{
  text-align: right;
